@@ -1,0 +1,7 @@
+Reverseenc0
+250
+Its quite a simple binary ,just on the opposite of MD5 resides the key to points.
+
+flag format: flag{}
+
+Author: Elemental X

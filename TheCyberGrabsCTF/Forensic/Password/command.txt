@@ -1,0 +1,26 @@
+    ~/TheCyberGrabsCTS/Forensic/Password  ll
+.rw-r--r-- unknow unknow 657 MB Thu Jan  7 23:23:35 2021  data.E01
+.rw-rw-r-- unknow unknow 644 MB Sun Jan 17 15:43:44 2021  data.E01.7z
+.rw-rw-r-- unknow unknow 295 B  Sun Jan 17 15:18:58 2021  desc.txt
+drwxrwxr-x unknow unknow 4.0 KB Sun Jan 17 15:58:27 2021  mountpoint
+drwxrwxr-x unknow unknow 4.0 KB Sun Jan 17 18:11:54 2021  rawimage
+
+
+   ~/TheCyberGrabsCTS/Forensic/Password  ewfmount data.E01 rawimage
+ewfmount 20140807
+
+    ~/TheCyberGrabsCTS/Forensic/Password 
+ .r--r--r-- root root 1.3 GB Sun Jan 17 18:18:19 2021  ewf1
+
+    ~/TheCyberGrabsCTS/Forensic/Password/rawimage  fls -o 0 -r -p ewf1 # fls ewf1 # to show list of file
+
+    ~/TheCyberGrabsCTS/Forensic/Password/rawimage  icat ewf1 15938-128-1  # reading data file
+
+ # OR mount
+
+    ~/TheCyberGrabsCTS/Forensic/Password  cp rawimage/ewf1 .
+    ~/TheCyberGrabsCTS/Forensic/Password  sudo umount rawimage
+    ~/TheCyberGrabsCTS/Forensic/Password  sudo mount ewf1 mountpoint
+
+# Don't forget to umount
+# using : sudo umount `directory`

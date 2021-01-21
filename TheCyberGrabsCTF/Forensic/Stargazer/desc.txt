@@ -1,0 +1,9 @@
+Stargazer
+500
+Mr.Wolf was using some application for his secret Communications find the application and his secret too.
+
+Note: Use the Same file shared in First Challenge(Password).
+
+Flag format: cybergrabs{}
+
+Author: White Wolf

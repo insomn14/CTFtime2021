@@ -1,0 +1,7 @@
+GOOFYSYS
+350
+Its quite a simple binary , which has multiple hurdles in the form of characters , make sure to get that final magic hash which leads you to the flag.
+
+Flag format: flag{}
+
+Author: Elemental X
